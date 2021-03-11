@@ -1,0 +1,48 @@
+.calculator{
+
+  display: flex;
+  
+  justify-content: space-evenly;
+  background-color: grey;
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.container{
+  margin-top: 20px;
+  
+}
+
+button{
+  font-size: 15px;
+}
+
+.row{
+  
+  height: 50px;
+  width:320px;
+  margin-top: 10px;
+}
+
+.button{
+  height: 50px;
+  width:80px;
+  font-weight: 800;
+}
+
+.operation{
+  margin-top:20px;
+  margin-left:20px;
+  
+}
+
+#input{
+
+  font-weight: 900;
+}
+
+label{
+
+  font-weight: 900;
+}

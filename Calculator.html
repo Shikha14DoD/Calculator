@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="PaintApp.css">
+</head>
+
+<body>
+
+    <script src="PaintApp.css"></script>
+    
+    <!-- write your HTML here-->
+
+   <!-- HTML here -->
+
+<div class="calculator">
+    <div class="container">
+    <div>
+        <button class="button" id="clr" onclick="reset()">CLEAR</button>
+        <button class="button">%</button>
+        <button class="button">C</button>
+        <button class="button" id="divide" onclick="fun(this.id)">/</button>
+    </div>
+    
+    <div>
+        <button class="button" id="block7" onclick="fun(this.id)">7</button>
+        <button class="button" id="block8" onclick="fun(this.id)">8</button>
+        <button class="button" id="block9" onclick="fun(this.id)">9</button>
+        <button class="button" id="multiply" onclick="fun(this.id)">*</button>
+    </div>
+
+    <div>
+        <button class="button" id="block4" onclick="fun(this.id)">4</button>
+        <button class="button" id="block5" onclick="fun(this.id)">5</button>
+        <button class="button" id="block6" onclick="fun(this.id)">6</button>
+        <button class="button" id="minus" onclick="fun(this.id)">-</button>
+    </div>
+
+    <div>
+        <button class="button" id="block1" onclick="fun(this.id)">1</button>
+        <button class="button" id="block2" onclick="fun(this.id)">2</button>
+        <button class="button" id="block3" onclick="fun(this.id)">3</button>
+        <button class="button" id="plus" onclick="fun(this.id)">+</button>
+    </div>
+    <div>
+        <button class="button">00</button>
+        <button class="button" id="block0" onclick="fun(this.id)">0</button>
+        <button class="button" id="dot" onclick="fun(this.id)">.</button>
+        <button class="button" id="ans" onclick="performOpration(this.id)">=</button>
+    </div>
+    </div>
+</div>
+<div class="operation">
+    <label for="input">Result</label>
+<input id="input" placeholder="Enter your query" size="30"></input>
+</div>
+
+</body>
+</html>
